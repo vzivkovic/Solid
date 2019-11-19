@@ -5,16 +5,22 @@ use App\Contracts\SortArrayInterface;
 
 class StringSort implements SortArrayInterface
 {
+    // not need
     public $string;
+    // change to private
     public $array;
 
     public function __construct(string $string)
     {
+        // not need
         $this->string = $string;
         $this->array = str_split($this->string); 
     }
+    
+    // change name to get
     public function getArray(): array
     {
+        // must return string
         return $this->array;
     }
     public function check(?int $i, ?int $j, array $array): bool
