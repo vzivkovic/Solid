@@ -5,6 +5,7 @@ use App\Contracts\SortArrayInterface;
 
 class SortArray
 {
+    // sort metod ne treba da ima tip koji vraca
     public function sort(SortArrayInterface $array): array
     {
         $this->loop($i=0, $j=0, $array, function(?int $i, ?int $j, SortArrayInterface $array){
