@@ -1,6 +1,6 @@
 <?php
 
-namespace App\contracts\D;
+namespace App\Contracts\D;
 
 interface Post
 {

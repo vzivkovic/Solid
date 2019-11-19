@@ -1,6 +1,6 @@
 <?php
 
-namespace App\contracts\L;
+namespace App\Contracts\L;
 
 interface BookListInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\classes\I;
+namespace App\Classes\I;
 
-use App\contracts\I\ManagableInterface;
+use App\Contracts\I\ManagableInterface;
 
 class Aviary
 {

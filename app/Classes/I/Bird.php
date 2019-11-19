@@ -1,9 +1,9 @@
 <?php
 
-namespace App\classes\I;
+namespace App\Classes\I;
 
-use App\contracts\I\SleepableInterface;
-use App\contracts\I\ManagableInterface;
+use App\Contracts\I\SleepableInterface;
+use App\Contracts\I\ManagableInterface;
 
 class Bird implements SleepableInterface, ManagableInterface
 {

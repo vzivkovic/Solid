@@ -1,8 +1,8 @@
 <?php
 
-namespace App\classes\D;
+namespace App\Classes\D;
 
-use App\contracts\D\Post;
+use App\Contracts\D\Post;
 
 class CommentPost implements Post
 {

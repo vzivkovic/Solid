@@ -1,10 +1,10 @@
 <?php
 
-namespace App\classes\I;
+namespace App\Classes\I;
 
-use App\classes\I\Bird;
-use App\contracts\I\FlyableInterface;
-use App\contracts\I\ManagableInterface;
+use App\Classes\I\Bird;
+use App\Contracts\I\FlyableInterface;
+use App\Contracts\I\ManagableInterface;
 
 class Parrot extends Bird implements FlyableInterface, ManagableInterface
 {

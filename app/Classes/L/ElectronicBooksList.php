@@ -1,9 +1,9 @@
 <?php
 
-namespace App\classes\L;
+namespace App\Classes\L;
 
-use App\classes\L\BooksList;
-use App\contracts\L\BookListInterface;
+use App\Classes\L\BooksList;
+use App\Contracts\L\BookListInterface;
 
 class ElectronicBooksList extends BooksList 
 {

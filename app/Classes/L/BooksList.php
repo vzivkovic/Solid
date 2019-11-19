@@ -1,8 +1,8 @@
 <?php
 
-namespace App\classes\L;
+namespace App\Classes\L;
 
-use App\contracts\L\BookListInterface;
+use App\Contracts\L\BookListInterface;
 
 class BooksList implements BookListInterface
 {

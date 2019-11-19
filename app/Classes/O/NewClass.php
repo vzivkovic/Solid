@@ -1,5 +1,5 @@
 <?php
-namespace App\classes\O;
+namespace App\Classes\O;
 
 class NewClass
 {

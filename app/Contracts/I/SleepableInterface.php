@@ -1,6 +1,6 @@
 <?php
 
-namespace App\contracts\I;
+namespace App\Contracts\I;
 
 interface SleepableInterface
 {
